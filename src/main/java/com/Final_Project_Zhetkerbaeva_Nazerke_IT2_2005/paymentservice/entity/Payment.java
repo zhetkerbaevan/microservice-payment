@@ -27,8 +27,6 @@ public class Payment {
     @Column(name="card_v_number")
     private int card_v_number;
 
-    @Column(name="amount")
-    private int amount;
 
     @Column(name="userid")
     private Long userid;
